@@ -32,3 +32,7 @@ alias gpu="git push"
 alias gb="git branch"
 alias gk="git checkout"
 alias gam='git add . && git amend --no-edit '
+
+# Tmux
+alias tma='tmux attach -t'
+alias tmn='tmux new -s'
