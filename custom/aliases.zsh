@@ -32,6 +32,7 @@ alias gpu="git push"
 alias gb="git branch"
 alias gk="git checkout"
 alias gam='git add . && git amend --no-edit '
+alias gar='git add . && GIT_COMMITTER_DATE="`date`" git commit --amend --no-edit --date "`date`"'
 
 # Tmux
 alias tma='tmux attach -t'
