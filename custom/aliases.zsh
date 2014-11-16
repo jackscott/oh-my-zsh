@@ -37,3 +37,5 @@ alias gar='git add . && GIT_COMMITTER_DATE="`date`" git commit --amend --no-edit
 # Tmux
 alias tma='tmux attach -t'
 alias tmn='tmux new -s'
+
+alias cln="sudo rm -rf /var/log/asl/*.asl"
