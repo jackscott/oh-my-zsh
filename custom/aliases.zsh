@@ -38,4 +38,8 @@ alias gar='git add . && GIT_COMMITTER_DATE="`date`" git commit --amend --no-edit
 alias tma='tmux attach -t'
 alias tmn='tmux new -s'
 
+# somehow this speeds up slow-ass iterm2 tab opening
 alias cln="sudo rm -rf /var/log/asl/*.asl"
+
+# jvm flavored development tastes like poop
+alias ckr="lein do clean, uberjar, test"
