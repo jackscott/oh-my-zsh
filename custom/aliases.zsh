@@ -39,7 +39,7 @@ alias tma='tmux attach -t'
 alias tmn='tmux new -s'
 
 # somehow this speeds up slow-ass iterm2 tab opening
-alias cln="sudo rm -rf /var/log/asl/*.asl"
+alias cln="sudo rm -rf /var/log/asl/*.asl /private/var/log/asl/*.asl"
 
 # jvm flavored development tastes like poop
 alias ckr="lein do clean, uberjar, test"
