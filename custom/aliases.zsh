@@ -43,3 +43,6 @@ alias cln="sudo rm -rf /var/log/asl/*.asl /private/var/log/asl/*.asl"
 
 # jvm flavored development tastes like poop
 alias ckr="lein do clean, uberjar, test"
+
+alias bpy='python -i -c "from bada_bing.devrepl import *"'
+
