@@ -20,6 +20,7 @@ alias ems="emacsclient -t -s"
 # Find open Emacs server sessions
 #alias emsess="ps aux |  grep emacs | grep -v grep | grep -no '\-\-daemon=^J3,4^J[^.]*' | sed 's/--daemon=^J3,4^J//g'"
 alias emsess="ps aux |  grep -i '[e]macs' | awk '{print \$NF}' | sed 's/--daemon=//g'"
+
 alias ipy='ipython notebook  --notebook-dir=~/.ipython_notebooks --pylab  inline '
 alias venv='source `which virtualenvwrapper.sh`'
 
@@ -44,5 +45,5 @@ alias cln="sudo rm -rf /var/log/asl/*.asl /private/var/log/asl/*.asl"
 # jvm flavored development tastes like poop
 alias ckr="lein do clean, uberjar, test"
 
-alias bpy='python -i -c "from bada_bing.devrepl import *"'
+alias omacs="open `which Emacs`"
 
